@@ -8,6 +8,13 @@ const app = new Vue({
             {name: 'celebi', number: 251},
             {name: 'lucario', number: 448},
             {name: 'delphox', number: 655},
-        ]
+        ],
+        nameFilter: ''
+    },
+    computed: {
+        pokeList: function(){
+            var nameFilter = this.nameFilter.toLowerCase();
+            return this.pokemonList.filter( pokemon => pokemon.name.includes(nameFilter) )
+        }
     }
 })
