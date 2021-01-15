@@ -2,7 +2,7 @@
 
 1. Open your computer's terminal. If it is in Windows it can be the CMD or Powershell.
 2. Change the current working directory to the location where you want to have the module code saved on your computer.<br>
-3. Clone this repository by running: git clone https://github.com/digpos/pokedex;<br>
+3. Clone this repository by running: git clone https://github.com/vawyg/pokedex;<br>
 4. Run npm install -g the project's dependencies;<br>
 5. Run http-server to start the development server.
 
